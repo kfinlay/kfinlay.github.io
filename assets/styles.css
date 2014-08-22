@@ -65,11 +65,29 @@ section p {line-height: 1.5em; padding: 0 20px 5px;}
 #hobbies ul li a {color: #555; list-style-position:outside;}
 #hobbies ul li a:hover {background-color: #555; color: #eee; text-decoration: none; list-style-position:outside;}
 
+.container {
+    width: 200px;
+    height: 300px;
+}
+/* resize images */
+.container img {
+    width: 100%;
+    height: auto;
+}
 
 /* MEDIA QUERIES */
 @media screen and (max-width:768px) {
 /*  .contact li {font-size: 0.7em;}*/
 	.contact li {font-size: 0.8em;}
+	.container {
+	    width: 100px;
+	    height: 150px;
+	}
+	/* resize images */
+	.container img {
+	    width: 50%;
+	    height: auto;
+	}
 }
 
 @media screen and (max-width:680px) {
