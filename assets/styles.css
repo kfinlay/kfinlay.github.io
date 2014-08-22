@@ -61,6 +61,7 @@ section p {line-height: 1.5em; padding: 0 20px 5px;}
 /*#hobbies ul {font-size: 0.9em; margin-left: 20px; list-style-position:outside;}*/
 #hobbies ul {font-size: 1em; margin-left: 20px; list-style-position:outside;}
 #hobbies ul li {margin: 10px 0; list-style: circle inside none; cursor: default; list-style-position:outside;}
+#hobbies ul li span {font-family: 'Ubuntu Mono', monospace; font-weight: 400;}
 #hobbies ul li:hover {list-style: disc inside none; list-style-position:outside;}
 #hobbies ul li a {color: #555; list-style-position:outside;}
 #hobbies ul li a:hover {background-color: #555; color: #eee; text-decoration: none; list-style-position:outside;}
