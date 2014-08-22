@@ -68,11 +68,13 @@ section p {line-height: 1.5em; padding: 0 20px 5px;}
 .container {
     width: 200px;
     height: 300px;
+	align: right;
 }
 /* resize images */
 .container img {
     width: 100%;
     height: auto;
+	align: right;
 }
 
 /* MEDIA QUERIES */
